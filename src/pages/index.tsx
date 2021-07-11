@@ -1,5 +1,7 @@
 import { Banner } from '../components/Banner';
+import { Bar } from '../components/Bar';
 import { Header } from '../components/Header';
+
 import { GlobalStyles } from '../styles/global';
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
 
       <Banner />
+
+      <Bar />
 
       <GlobalStyles />
     </>
