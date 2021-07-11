@@ -65,7 +65,8 @@ export const Item = styled.li`
 export const Action = styled.div`
   display: flex;
 
-  button {
-    margin-right: 1.25rem;
+  img {
+    margin-left: 1.25rem;
+    cursor: pointer;
   }
 `;

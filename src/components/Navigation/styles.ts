@@ -15,6 +15,8 @@ export const NavItem = styled.li`
   color: var(--gray-550);
   font-weight: bold;
 
+  cursor: pointer;
+
   &&:not(:first-child) {
     margin-left: 1.875rem;
   }
