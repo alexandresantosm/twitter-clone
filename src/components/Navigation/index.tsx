@@ -1,4 +1,6 @@
-import { Container, Nav, NavItem, Icon } from './styles';
+import { Icon } from '../Icon';
+
+import { Container, Nav, NavItem } from './styles';
 
 export function Navigation() {
   return (

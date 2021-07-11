@@ -19,7 +19,3 @@ export const NavItem = styled.li`
     margin-left: 1.875rem;
   }
 `;
-
-export const Icon = styled.img`
-  margin-right: 0.5rem;
-`;
