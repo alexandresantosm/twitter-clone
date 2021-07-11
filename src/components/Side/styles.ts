@@ -22,19 +22,3 @@ export const Avatar = styled.img`
   border-radius: 50%;
   margin: 0 1rem;
 `;
-
-export const Button = styled.button`
-  height: 2.125rem;
-  width: 5.625rem;
-  background-color: var(--blue-300);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: bold;
-  font-size: 0.875rem;
-  color: var(--white-500);
-  border: 0;
-  border-radius: 1rem;
-`;

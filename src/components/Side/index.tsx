@@ -1,4 +1,6 @@
-import { Container, TextInput, Avatar, Button } from './styles';
+import { Button } from '../input/Button';
+
+import { Container, TextInput, Avatar } from './styles';
 
 export function Side() {
   return (
@@ -7,7 +9,7 @@ export function Side() {
 
       <Avatar src="/images/avatar.png" alt="Avatar" />
 
-      <Button>Tweet</Button>
+      <Button isOutline={false}>Tweet</Button>
     </Container>
   );
 }
