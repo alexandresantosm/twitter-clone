@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({ children, isOutline, ...props }: ButtonProps) {
   return (
-    <ButtonStyled className={isOutline ? 'outline' : ''} {...props}>
+    <ButtonStyled className={isOutline && 'outline'} {...props}>
       {children}
     </ButtonStyled>
   );
